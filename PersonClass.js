@@ -29,7 +29,7 @@ let arrey_persons=[person1,person2,person3];                                    
 arrey_persons.forEach((data)=>console.log(data.person_details()));                //using forEach method to apply method for all instance and print.
 
 //This above program output is given below:
-/*
+/* 
 Name         :   Pragadeesh Waran
 Age          :   34
 Color        :   black
