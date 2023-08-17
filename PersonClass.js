@@ -21,16 +21,16 @@ class person{
         return data;
     }
 }
-let person1=new person("John","vick",45,"white","Engineer",15,"Mechanical");      //creating instance of an object and give value for parameters.
-let person2=new person("Kishore","kumar",25,"brown","Fashion Designer",6,"Diploma in fashion");
-let person3=new person("Ranjith","Kumar",21,"brown","Trader",8,"Accounts")
+let person1=new person("Pragadeesh","Waran",34,"black","Engineer",9,"Mechanical");      //creating instance of an object and give value for parameters.
+let person2=new person("Sai","kishore",30,"black","Costume Designer",7,"Costume Design And Fashion");
+let person3=new person("Praveen","Raj",25,"brown","Fashion Designer",5,"Fashion Design")
 
 let arrey_persons=[person1,person2,person3];                                      //array of instance.
 arrey_persons.forEach((data)=>console.log(data.person_details()));                //using forEach method to apply method for all instance and print.
 
 //This above program output is given below:
 /*
-Name         :   Pragadeesh
+Name         :   Pragadeesh Waran
 Age          :   34
 Color        :   black
 Occupation   :   Engineer
@@ -38,15 +38,15 @@ Experience   :   9
 Degree       :   Mechanical
 
 
-Name         :   Abimanyu
+Name         :   Sai Kishpre
 Age          :   30
 Color        :   black
 Occupation   :   Costume Designer
-Experience   :   5
+Experience   :   7
 Degree       :   Costume Design and Fashion
 
 
-Name         :   Praveen
+Name         :   Praveen Raj
 Age          :   25
 Color        :   brown
 Occupation   :   Fashion Designer
